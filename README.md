@@ -21,7 +21,5 @@ This project demonstrates **CRUD operations (Create, Read, Update, Delete)** usi
 - **Database:** MySQL / SQLite  
 - **Tools:** VS Code, Git, GitHub  
 
----
 
-## 📂 Project Structure
 

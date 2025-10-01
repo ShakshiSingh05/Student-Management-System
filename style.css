@@ -1,5 +1,81 @@
-h1 {
-     text-align: center;
-    color: #30e180;
-    margin-bottom: 20px;
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #d97ea5;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header button {
+  background: white;
+  color: #df5f8b;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.controls {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem;
+  background: white;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+th {
+  background: #f0f0f0;
+}
+
+button.action {
+  background: none;
+  border: none;
+  color: #4f46e5;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal.hidden { display: none; }
+
+.modal-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  width: 400px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
 }
